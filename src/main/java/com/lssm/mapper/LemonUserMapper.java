@@ -51,6 +51,7 @@ public interface LemonUserMapper {
      * This method corresponds to the database table lemon_user
      *
      * @mbggenerated Wed Jun 08 09:49:09 GMT+08:00 2016
+     * @param example
      */
     List<LemonUser> selectByExample(LemonUserExample example);
 
