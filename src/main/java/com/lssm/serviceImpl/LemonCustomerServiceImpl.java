@@ -31,5 +31,17 @@ public class LemonCustomerServiceImpl implements LemonCustomerService {
         return id;
     }
 
+    @Override
+    public LemonCustomer findOne(int id) {
+        LemonCustomer customer =  lemonCustomerMapper.selectByPrimaryKey(id);
+        return customer;
+    }
+
+    public int update(LemonCustomer record)
+    {
+        int result = lemonCustomerMapper.updateByPrimaryKeySelective(record);
+        return  result;
+    }
+
 
 }

@@ -13,4 +13,8 @@ public interface LemonCustomerService {
     List<LemonCustomer> findCustomers() throws Exception;
 
     int add(LemonCustomer record);
+
+    LemonCustomer findOne(int id);
+
+    int update(LemonCustomer record);
 }

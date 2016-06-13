@@ -21,7 +21,7 @@
                 <td>${customer.customerName}</td>
                 <td>${customer.mobile}</td>
                 <td>${customer.bankCard}</td>
-                <td><a href="#" type="button" class="btn btn-sm btn-warning">修改</a></td>
+                <td><a href="/customer/update?id=${customer.id}" type="button" class="btn btn-sm btn-warning">修改</a></td>
             </tr>
         </c:forEach>
     </c:if>

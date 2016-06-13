@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26eba7e6-fd7a-410d-8208-56a8c8ec1246" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
@@ -32,37 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LemonCustomerController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LemonCustomerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LemonCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomer.java">
+      <file leaf-file-name="LemonUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="247" column="32" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
-              <folding>
-                <element signature="e#7059#7060#0" expanded="true" />
-                <element signature="e#7091#7092#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="421">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -71,8 +57,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="411">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -91,8 +77,8 @@
       <file leaf-file-name="LemonCustomerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -101,8 +87,37 @@
       <file leaf-file-name="LemonCustomerServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonCustomerMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="362" column="34" selection-start-line="362" selection-start-column="34" selection-end-line="362" selection-end-column="34" />
+              <folding>
+                <marker date="1465352906832" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
+                <marker date="1465352906832" expanded="true" signature="5838:5902" placeholder="delete from " />
+                <marker date="1465352906832" expanded="true" signature="6206:6232" placeholder="delete from " />
+                <marker date="1465352906832" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
+                <marker date="1465352906832" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
+                <marker date="1465352906832" expanded="true" signature="12192:12897" placeholder="update lemon... " />
+                <marker date="1465352906832" expanded="true" signature="13309:14546" placeholder="update lemon... " />
+                <marker date="1465352906832" expanded="true" signature="14846:15463" placeholder="update lemon... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -118,30 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LemonCustomerMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
-              <folding>
-                <marker date="1465352906832" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
-                <marker date="1465352906832" expanded="true" signature="5838:5902" placeholder="delete from " />
-                <marker date="1465352906832" expanded="true" signature="6206:6232" placeholder="delete from " />
-                <marker date="1465352906832" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
-                <marker date="1465352906832" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
-                <marker date="1465352906832" expanded="true" signature="12192:12897" placeholder="update lemon... " />
-                <marker date="1465352906832" expanded="true" signature="13309:14546" placeholder="update lemon... " />
-                <marker date="1465352906832" expanded="true" signature="14846:15463" placeholder="update lemon... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LemonCustomerMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="218">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -185,12 +181,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp" />
       </list>
     </option>
   </component>
@@ -593,6 +590,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\lemonssm\src\main\webapp\WEB-INF\views\customer" />
       <recent name="D:\java\lemonssm\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1124,12 +1122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1465349313525</updated>
       <workItem from="1465349318112" duration="14160000" />
-      <workItem from="1465692963421" duration="21050000" />
+      <workItem from="1465692963421" duration="23393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35210000" />
+    <option name="totallyTimeSpent" value="37553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1154,7 +1152,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252809" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252809" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -1182,7 +1180,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1200,8 +1206,8 @@
         <state relative-caret-position="240">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1466,16 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1486,35 +1482,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
-          <folding>
-            <marker date="1465352906832" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
-            <marker date="1465352906832" expanded="true" signature="5838:5902" placeholder="delete from " />
-            <marker date="1465352906832" expanded="true" signature="6206:6232" placeholder="delete from " />
-            <marker date="1465352906832" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
-            <marker date="1465352906832" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
-            <marker date="1465352906832" expanded="true" signature="12192:12897" placeholder="update lemon... " />
-            <marker date="1465352906832" expanded="true" signature="13309:14546" placeholder="update lemon... " />
-            <marker date="1465352906832" expanded="true" signature="14846:15463" placeholder="update lemon... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1530,18 +1517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="411">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1554,38 +1533,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="421">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="362" column="34" selection-start-line="362" selection-start-column="34" selection-end-line="362" selection-end-column="34" />
+          <folding>
+            <marker date="1465352906832" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
+            <marker date="1465352906832" expanded="true" signature="5838:5902" placeholder="delete from " />
+            <marker date="1465352906832" expanded="true" signature="6206:6232" placeholder="delete from " />
+            <marker date="1465352906832" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
+            <marker date="1465352906832" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
+            <marker date="1465352906832" expanded="true" signature="12192:12897" placeholder="update lemon... " />
+            <marker date="1465352906832" expanded="true" signature="13309:14546" placeholder="update lemon... " />
+            <marker date="1465352906832" expanded="true" signature="14846:15463" placeholder="update lemon... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="79" />
+        <state relative-caret-position="240">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
