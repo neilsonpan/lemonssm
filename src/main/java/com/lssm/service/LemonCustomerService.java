@@ -3,6 +3,7 @@ package com.lssm.service;
 import com.lssm.model.LemonCustomer;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -10,7 +11,7 @@ import java.util.List;
  */
 @Service
 public interface LemonCustomerService {
-    List<LemonCustomer> findCustomers() throws Exception;
+    List<LemonCustomer> findCustomers(HashMap<String, Object> hashMap) throws Exception;
 
     int add(LemonCustomer record);
 

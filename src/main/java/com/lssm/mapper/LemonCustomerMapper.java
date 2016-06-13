@@ -2,6 +2,8 @@ package com.lssm.mapper;
 
 import com.lssm.model.LemonCustomer;
 import com.lssm.model.LemonCustomerExample;
+
+import java.util.HashMap;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -93,4 +95,6 @@ public interface LemonCustomerMapper {
      * @mbggenerated Wed Jun 08 09:49:09 GMT+08:00 2016
      */
     int updateByPrimaryKey(LemonCustomer record);
+
+    List<LemonCustomer> selectCustomers(HashMap<?, ?> hashMap);
 }

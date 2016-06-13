@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -22,8 +23,15 @@ public class LemonCustomerController {
     LemonCustomerService lemonCustomerService;
 
     @RequestMapping("index")
-    public ModelAndView index(ModelAndView modelAndView) throws Exception {
-        List<LemonCustomer> customers = lemonCustomerService.findCustomers();
+    public ModelAndView index(ModelAndView modelAndView, HttpServletRequest request) throws Exception {
+        HashMap<String, Object> hashMap = new HashMap<String, Object>();
+
+        String mobile = request.getParameter("mobile");
+
+        hashMap.put("mobile", mobile);
+        modelAndView.addObject("mobile", mobile);
+
+        List<LemonCustomer> customers = lemonCustomerService.findCustomers(hashMap);
         modelAndView.addObject("customers", customers);
         return modelAndView;
     }
@@ -77,14 +85,13 @@ public class LemonCustomerController {
         int effective = Integer.parseInt(request.getParameter("effective"));
         String id = request.getParameter("id");
 
-        if (!customerName.isEmpty() && !mobile.isEmpty() && !password.isEmpty()) {
-            record.setCustomerName(customerName);
-            record.setMobile(mobile);
-            record.setPassword(password);
-            record.setEffective(effective);
+        record.setCustomerName(customerName);
+        record.setMobile(mobile);
+        record.setPassword(password);
+        record.setEffective(effective);
 
-            if (id != null)record.setId(Integer.parseInt(id));
-        }
+        if (id != null)record.setId(Integer.parseInt(id));
+
 
         return  record;
     }

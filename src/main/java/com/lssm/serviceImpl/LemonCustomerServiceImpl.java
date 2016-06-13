@@ -7,6 +7,7 @@ import com.lssm.service.LemonCustomerService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -19,8 +20,8 @@ public class LemonCustomerServiceImpl implements LemonCustomerService {
     LemonCustomerMapper lemonCustomerMapper;
 
     @Override
-    public List<LemonCustomer> findCustomers() throws Exception {
-        List<LemonCustomer> customers = lemonCustomerMapper.selectByExample(null);
+    public List<LemonCustomer> findCustomers(HashMap<String, Object> hashMap) throws Exception {
+        List<LemonCustomer> customers = lemonCustomerMapper.selectCustomers(hashMap);
         return customers;
     }
 

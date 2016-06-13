@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <html>
 <head>
@@ -7,6 +8,12 @@
 </head>
 <body>
 <h3>所有客户 <a href="/customer/add" type="button" class="btn btn-primary btn-sm">添加</a></h3>
+
+<form:form action="/customer/index" method="post">
+    <label>mobile</label>
+    <input type="text" name="mobile" value="${mobile}" />
+    <input type="submit" value="查询" />
+</form:form>
 
 <table class="table table-bordered table-striped">
     <tr>
