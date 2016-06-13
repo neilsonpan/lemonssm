@@ -11,4 +11,6 @@ import java.util.List;
 @Service
 public interface LemonCustomerService {
     List<LemonCustomer> findCustomers() throws Exception;
+
+    int add(LemonCustomer record);
 }

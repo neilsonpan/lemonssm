@@ -6,7 +6,7 @@
     <title>custoemr index</title>
 </head>
 <body>
-<h3>所有客户 <a href="#" type="button" class="btn btn-primary btn-sm">添加</a></h3>
+<h3>所有客户 <a href="/customer/add" type="button" class="btn btn-primary btn-sm">添加</a></h3>
 
 <table class="table table-bordered table-striped">
     <tr>

@@ -23,4 +23,13 @@ public class LemonCustomerServiceImpl implements LemonCustomerService {
         List<LemonCustomer> customers = lemonCustomerMapper.selectByExample(null);
         return customers;
     }
+
+    @Override
+    public int add(LemonCustomer record) {
+
+        int id = lemonCustomerMapper.insertSelective(record);
+        return id;
+    }
+
+
 }
