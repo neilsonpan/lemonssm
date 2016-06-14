@@ -10,7 +10,7 @@
 <h3>所有客户 <a href="/customer/add" type="button" class="btn btn-primary btn-sm">添加</a></h3>
 
 <form:form action="/customer/index" method="post">
-    <label>mobile</label>
+    <label>手机号</label>
     <input type="text" name="mobile" value="${mobile}" />
     <input type="submit" value="查询" />
 </form:form>

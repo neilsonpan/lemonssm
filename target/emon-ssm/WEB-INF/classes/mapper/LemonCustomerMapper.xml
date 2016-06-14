@@ -415,9 +415,10 @@
   <select id="selectCustomers" parameterType="java.util.HashMap" resultType="java.util.HashMap" >
     select customer_name as customerName, mobile, bank_card as bankCard from lemon_customer
     <where>
-      <if test="mobile != null ">
-        and  mobile like CONCAT('%', #{mobile, jdbcType=VARCHAR}, '%')
-      </if>
+        <if test="mobile != null ">
+            and  mobile like CONCAT('%', trim(#{mobile, jdbcType=VARCHAR}), '%')
+        </if>
     </where>
+    ORDER by id desc
   </select>
 </mapper>
