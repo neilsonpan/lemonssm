@@ -1,5 +1,6 @@
 package com.lssm.controller;
 
+import com.lssm.model.LemonCustomer;
 import com.lssm.model.LemonUser;
 import com.lssm.model.LemonUserExample;
 import com.lssm.service.LemonUserService;
@@ -11,6 +12,9 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -23,8 +27,13 @@ public class LemonUserController {
     LemonUserService lemonUserService;
 
     @RequestMapping(value = "login", method = RequestMethod.POST)
-    public String login(HttpServletRequest request, RedirectAttributes attributes) throws  Exception
+    public String login(HttpServletRequest request, RedirectAttributes attributes, HttpSession session) throws  Exception
     {
+        if (session.getAttribute("id") != null)
+        {
+            return "redirect:/customer/index";
+        }
+
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
 
@@ -58,6 +67,14 @@ public class LemonUserController {
 
         if(!user.isEmpty())
         {
+            Iterator iterator = user.iterator();
+
+            while (iterator.hasNext())
+            {
+                LemonUser uelement= (LemonUser) iterator.next();
+                session.setAttribute("id", uelement.getId());
+            }
+
             return "redirect:/customer/index";
         } else
         {

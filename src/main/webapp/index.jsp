@@ -6,9 +6,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>登陆</title>
+    <%
+        HttpSession s = request.getSession();
+    %>
+    <script>
+        var id = <%=s.getAttribute("id")%>;
+        if (id)
+        {
+            location.href = "/customer/index";
+        }
+    </script>
+
 </head>
 
 <body>
+
     <div class="row" style="margin-top: 150px;">
         <div class="col-lg-4"></div>
         <div class="col-lg-5">
