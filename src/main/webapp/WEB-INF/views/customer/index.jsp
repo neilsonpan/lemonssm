@@ -6,6 +6,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.min.js"></script>
     <title>客户管理</title>
 </head>
 <body>
@@ -33,6 +37,7 @@
                 <th>客户名字</th>
                 <th>手机账号</th>
                 <th>银行卡</th>
+                <th>有效性</th>
                 <th>操作</th>
             </tr>
         </thead>
@@ -43,6 +48,13 @@
                         <td>${customer.customerName}</td>
                         <td>${customer.mobile}</td>
                         <td>${customer.bankCard}</td>
+                        <td>
+                            <select id="effective" record-id="${customer.id}">
+                                <option value="0" ${customer.effective == 0 ? "selected=selected" : ""}>未验证</option>
+                                <option value="1" ${customer.effective == 1 ? "selected=selected" : ""}>验证无效</option>
+                                <option value="2" ${customer.effective == 2 ? "selected=selected" : ""}>验证有效</option>
+                            </select>
+                        </td>
                         <td><a href="/customer/update?id=${customer.id}" type="button" class="btn btn-sm btn-warning">修改</a></td>
                     </tr>
                 </c:forEach>
@@ -50,10 +62,35 @@
         </tbody>
     </table>
 
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="/js/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#effective").change(function(){
+                var id = $(this).attr("record-id");
+                var effective = $(this).val();
+                $.ajax({
+                    url: "/customer/changeStatus",
+                    type: "post",
+                    data: {"id":id, "effective": effective},
+                    dataType: "json",
 
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="/js/bootstrap.min.js"></script>
+                    success: function(result)
+                    {
+                        if (result.status == 1)
+                        {
+                            alert("Operate success!");
+                        } else
+                        {
+                            alert("Operate failed!");
+                        }
+                    },
+
+                    error: function()
+                    {
+                        alert("Operate failed!");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

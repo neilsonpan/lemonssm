@@ -534,52 +534,52 @@ public class LemonCustomerExample {
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveEqualTo(Boolean value) {
+        public Criteria andEffectiveEqualTo(int value) {
             addCriterion("effective =", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveNotEqualTo(Boolean value) {
+        public Criteria andEffectiveNotEqualTo(int value) {
             addCriterion("effective <>", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveGreaterThan(Boolean value) {
+        public Criteria andEffectiveGreaterThan(int value) {
             addCriterion("effective >", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andEffectiveGreaterThanOrEqualTo(int value) {
             addCriterion("effective >=", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveLessThan(Boolean value) {
+        public Criteria andEffectiveLessThan(int value) {
             addCriterion("effective <", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveLessThanOrEqualTo(Boolean value) {
+        public Criteria andEffectiveLessThanOrEqualTo(int value) {
             addCriterion("effective <=", value, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveIn(List<Boolean> values) {
+        public Criteria andEffectiveIn(List<Integer> values) {
             addCriterion("effective in", values, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveNotIn(List<Boolean> values) {
+        public Criteria andEffectiveNotIn(List<Integer> values) {
             addCriterion("effective not in", values, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveBetween(Boolean value1, Boolean value2) {
+        public Criteria andEffectiveBetween(int value1, int value2) {
             addCriterion("effective between", value1, value2, "effective");
             return (Criteria) this;
         }
 
-        public Criteria andEffectiveNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andEffectiveNotBetween(int value1, int value2) {
             addCriterion("effective not between", value1, value2, "effective");
             return (Criteria) this;
         }

@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
@@ -138,5 +139,25 @@ public class LemonCustomerController {
         {
             return msg;
         }
+    }
+
+    @RequestMapping("changeStatus")
+    @ResponseBody
+    public HashMap<String, Object> changeStatus(HttpServletRequest request)
+    {
+        int id = Integer.parseInt(request.getParameter("id"));
+        int effective = Integer.parseInt(request.getParameter("effective"));
+
+        LemonCustomer customer = new LemonCustomer();
+
+        customer.setId(id);
+        customer.setEffective(effective);
+
+        lemonCustomerService.update(customer);
+
+        HashMap<String, Object> hashMap = new HashMap();
+        hashMap.put("status", 1);
+
+        return  hashMap;
     }
 }
