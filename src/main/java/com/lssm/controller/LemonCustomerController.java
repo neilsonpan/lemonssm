@@ -43,17 +43,23 @@ public class LemonCustomerController {
     }
 
     @RequestMapping(value = "add", method = RequestMethod.POST)
-    public String add(ModelAndView modelAndView, HttpServletRequest request)
+    public ModelAndView add(ModelAndView modelAndView, HttpServletRequest request)
     {
 
         LemonCustomer record = this.getRecord(request);
-        if (request != null) {
-            modelAndView.addObject("customer", record);
 
-            int id = lemonCustomerService.add(record);
+        String msg = this.validate(record);
+        modelAndView.addObject("customer", record);
+
+        if (msg != null && msg.length() > 0)
+        {
+            modelAndView.addObject("error", msg);
+            return modelAndView;
         }
 
-        return "redirect: /customer/index";
+        int id = lemonCustomerService.add(record);
+
+        return new ModelAndView("redirect: /customer/index");
     }
 
     @RequestMapping(value = "update", method = RequestMethod.GET)
@@ -65,14 +71,22 @@ public class LemonCustomerController {
     }
 
     @RequestMapping(value = "update", method = RequestMethod.POST)
-    public  String update(ModelAndView modelAndView, HttpServletRequest request)
+    public  ModelAndView update(ModelAndView modelAndView, HttpServletRequest request)
     {
         LemonCustomer record = this.getRecord(request);
-        if (request != null) {
-            int id = lemonCustomerService.update(record);
+
+        String msg = this.validate(record);
+        modelAndView.addObject("customer", record);
+
+        if (msg != null && msg.length() > 0)
+        {
+            modelAndView.addObject("error", msg);
+            return modelAndView;
         }
 
-        return "redirect: /customer/index";
+        int id = lemonCustomerService.update(record);
+
+        return new ModelAndView("redirect: /customer/index");
     }
 
     private LemonCustomer getRecord(HttpServletRequest request)
@@ -94,5 +108,35 @@ public class LemonCustomerController {
 
 
         return  record;
+    }
+
+    private String validate(LemonCustomer customer)
+    {
+        String customerName = customer.getCustomerName();
+        String mobile = customer.getMobile();
+        String password = customer.getPassword();
+        String msg = "";
+        if (customerName == null || "".equals(customerName))
+        {
+            msg = "Customer ";
+        }
+
+        if (mobile == null || "".equals(mobile))
+        {
+            msg += "Mobile ";
+        }
+
+        if (password == null || "".equals(password))
+        {
+            msg += "Password ";
+        }
+
+        if (msg != "")
+        {
+            return msg + "can't be null!";
+        } else
+        {
+            return msg;
+        }
     }
 }

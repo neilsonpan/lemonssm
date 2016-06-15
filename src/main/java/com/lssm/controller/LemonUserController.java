@@ -28,6 +28,26 @@ public class LemonUserController {
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
 
+        attributes.addAttribute("userName", userName);
+        attributes.addAttribute("password", password);
+
+        String validate = "";
+        if ("".equals(userName) || userName == null)
+        {
+            validate = "User Name ";
+        }
+
+        if ("".equals(password) || password == null)
+        {
+            validate += "Password ";
+        }
+
+        if (validate != "")
+        {
+            attributes.addAttribute("error", validate + "can't be null!");
+            return "redirect:/index.jsp";
+        }
+
         LemonUserExample lemonUserExample = new LemonUserExample();
         LemonUserExample.Criteria criteria = lemonUserExample.createCriteria();
 
@@ -41,9 +61,7 @@ public class LemonUserController {
             return "redirect:/customer/index";
         } else
         {
-            attributes.addAttribute("userName", userName);
-            attributes.addAttribute("password", password);
-            attributes.addAttribute("error", "login error");
+            attributes.addAttribute("error", "User name or Password wrong!");
 
             return "redirect:/index.jsp";
         }

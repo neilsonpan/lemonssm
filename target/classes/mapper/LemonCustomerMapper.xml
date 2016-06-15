@@ -413,7 +413,7 @@
 
 
   <select id="selectCustomers" parameterType="java.util.HashMap" resultType="java.util.HashMap" >
-    select customer_name as customerName, mobile, bank_card as bankCard from lemon_customer
+    select id, customer_name as customerName, mobile, bank_card as bankCard from lemon_customer
     <where>
         <if test="mobile != null ">
             and  mobile like CONCAT('%', trim(#{mobile, jdbcType=VARCHAR}), '%')
