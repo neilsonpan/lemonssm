@@ -44,5 +44,11 @@ public class LemonCustomerServiceImpl implements LemonCustomerService {
         return  result;
     }
 
+    @Override
+    public int count(HashMap<String, Object> hashMap) {
+        int c = lemonCustomerMapper.count(hashMap);
+        return c;
+    }
+
 
 }

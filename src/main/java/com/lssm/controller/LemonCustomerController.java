@@ -28,9 +28,43 @@ public class LemonCustomerController {
         HashMap<String, Object> hashMap = new HashMap<String, Object>();
 
         String mobile = request.getParameter("mobile");
+        String customerName = request.getParameter("customerName");
+        String _page = request.getParameter("page");
+        int page = 1;
+        int pageSize = 2;
+
+        if ("".equals(_page) || null == _page)
+        {
+            _page = "1";
+        }
+
+        page = Integer.parseInt(_page);
 
         hashMap.put("mobile", mobile);
+        hashMap.put("customerName", customerName);
+
+        int count = lemonCustomerService.count(hashMap);
+
+        if (page <= 0)
+        {
+            page = 1;
+        }
+
+        int pages = count%pageSize == 0 ? count/pageSize : count/pageSize + 1;
+
+        if (page >= pages)
+        {
+            page = pages;
+        }
+
+        hashMap.put("offset", (page - 1) * pageSize);
+        hashMap.put("pageSize", pageSize);
+
         modelAndView.addObject("mobile", mobile);
+        modelAndView.addObject("customerName", customerName);
+        modelAndView.addObject("page", page);
+        modelAndView.addObject("pages", pages);
+        modelAndView.addObject("pageSize", pageSize);
 
         List<LemonCustomer> customers = lemonCustomerService.findCustomers(hashMap);
         modelAndView.addObject("customers", customers);

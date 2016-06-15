@@ -97,4 +97,6 @@ public interface LemonCustomerMapper {
     int updateByPrimaryKey(LemonCustomer record);
 
     List<LemonCustomer> selectCustomers(HashMap<?, ?> hashMap);
+
+    int count(HashMap<?, ?> hashMap);
 }

@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26eba7e6-fd7a-410d-8208-56a8c8ec1246" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lssm/controller/LemonCustomerController.class" afterPath="$PROJECT_DIR$/target/classes/com/lssm/controller/LemonCustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lssm/model/LemonCustomerExample$Criteria.class" afterPath="$PROJECT_DIR$/target/classes/com/lssm/model/LemonCustomerExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lssm/model/LemonCustomerExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/lssm/model/LemonCustomerExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm.war" afterPath="$PROJECT_DIR$/target/emon-ssm.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/controller/LemonCustomerController.class" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/controller/LemonCustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/model/LemonCustomerExample$Criteria.class" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/model/LemonCustomerExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/model/LemonCustomerExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/com/lssm/model/LemonCustomerExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomerExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomerExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.propertites" afterPath="$PROJECT_DIR$/src/main/resources/config.propertites" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/LemonCustomerMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/LemonCustomerMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/mapper/LemonCustomerMapper.xml" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/classes/mapper/LemonCustomerMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/views/customer/index.jsp" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/views/customer/index.jsp" />
     </list>
     <ignored path="lemonssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +31,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="LemonCustomerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+              <folding>
+                <element signature="e#954#970#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="346">
+              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonCustomerMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="422" column="38" selection-start-line="422" selection-start-column="38" selection-end-line="422" selection-end-column="38" />
+              <folding>
+                <marker date="1465972331579" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="5838:5902" placeholder="delete from " />
+                <marker date="1465972331579" expanded="true" signature="6206:6232" placeholder="delete from " />
+                <marker date="1465972331579" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
+                <marker date="1465972331579" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="12192:12897" placeholder="update lemon... " />
+                <marker date="1465972331579" expanded="true" signature="13309:14546" placeholder="update lemon... " />
+                <marker date="1465972331579" expanded="true" signature="14846:15463" placeholder="update lemon... " />
+                <marker date="1465972331579" expanded="true" signature="15580:15686" placeholder="select * fro... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="15580:15993" placeholder="select * fro... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="15580:16014" placeholder="select custo... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="15580:16020" placeholder="select id, e... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="15580:16021" placeholder="select id, e... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="15580:16043" placeholder="select id, e... lemon_customer" />
+                <marker date="1465972331579" expanded="true" signature="16155:16529" placeholder="select id, e... lemon_customer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonCustomerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonCustomerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonCustomerMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="98" column="61" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -85,18 +143,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lssm/model/LemonCustomerExample.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config.propertites" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
       </list>
     </option>
@@ -187,300 +245,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serviceImpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lemonssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
@@ -1033,12 +798,12 @@
       <workItem from="1465349318112" duration="14160000" />
       <workItem from="1465692963421" duration="24642000" />
       <workItem from="1465802984744" duration="1210000" />
-      <workItem from="1465805259220" duration="33381000" />
+      <workItem from="1465805259220" duration="37652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73393000" />
+    <option name="totallyTimeSpent" value="77664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1063,10 +828,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25955057" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25955057" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1102,10 +867,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25617978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25955057" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1132,14 +897,8 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1215,17 +974,21 @@
         <state relative-caret-position="10860">
           <caret line="362" column="34" selection-start-line="362" selection-start-column="34" selection-end-line="362" selection-end-column="34" />
           <folding>
-            <marker date="1465964764712" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="5838:5902" placeholder="delete from " />
-            <marker date="1465964764712" expanded="true" signature="6206:6232" placeholder="delete from " />
-            <marker date="1465964764712" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
-            <marker date="1465964764712" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="12192:12897" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="13309:14546" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="14846:15463" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="15580:15686" placeholder="select * fro... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="15580:15842" placeholder="select * fro... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="15580:15863" placeholder="select custo... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="5838:5902" placeholder="delete from " />
+            <marker date="1465972331579" expanded="true" signature="6206:6232" placeholder="delete from " />
+            <marker date="1465972331579" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
+            <marker date="1465972331579" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="12192:12897" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="13309:14546" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="14846:15463" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="15580:15686" placeholder="select * fro... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:15993" placeholder="select * fro... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16014" placeholder="select custo... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16020" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16021" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16043" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="16155:16529" placeholder="select id, e... lemon_customer" />
           </folding>
         </state>
       </provider>
@@ -1430,14 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1462,26 +1217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -1502,16 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#954#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1528,26 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="414" column="94" selection-start-line="414" selection-start-column="87" selection-end-line="414" selection-end-column="94" />
-          <folding>
-            <marker date="1465964764712" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="5838:5902" placeholder="delete from " />
-            <marker date="1465964764712" expanded="true" signature="6206:6232" placeholder="delete from " />
-            <marker date="1465964764712" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
-            <marker date="1465964764712" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="12192:12897" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="13309:14546" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="14846:15463" placeholder="update lemon... " />
-            <marker date="1465964764712" expanded="true" signature="15580:15686" placeholder="select * fro... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="15580:15842" placeholder="select * fro... lemon_customer" />
-            <marker date="1465964764712" expanded="true" signature="15580:15863" placeholder="select custo... lemon_customer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.propertites">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1556,10 +1265,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/service/LemonCustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/serviceImpl/LemonCustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/mapper/LemonCustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="98" column="61" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LemonCustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="422" column="38" selection-start-line="422" selection-start-column="38" selection-end-line="422" selection-end-column="38" />
+          <folding>
+            <marker date="1465972331579" expanded="true" signature="5439:5549" placeholder="select from lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="5838:5902" placeholder="delete from " />
+            <marker date="1465972331579" expanded="true" signature="6206:6232" placeholder="delete from " />
+            <marker date="1465972331579" expanded="true" signature="6613:7209" placeholder="insert into lemon_customer... " />
+            <marker date="1465972331579" expanded="true" signature="9948:9983" placeholder="select count... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="12192:12897" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="13309:14546" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="14846:15463" placeholder="update lemon... " />
+            <marker date="1465972331579" expanded="true" signature="15580:15686" placeholder="select * fro... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:15993" placeholder="select * fro... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16014" placeholder="select custo... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16020" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16021" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="15580:16043" placeholder="select id, e... lemon_customer" />
+            <marker date="1465972331579" expanded="true" signature="16155:16529" placeholder="select id, e... lemon_customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="e#954#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="346">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
           <folding />
         </state>
       </provider>

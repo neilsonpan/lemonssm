@@ -18,10 +18,13 @@
         <div class="col-lg-6">
             <form:form action="/customer/index" method="post" class="form-inline">
                 <div class="form-group">
-                    <label>手机号</label>
-                    <input class="form-group" type="text" name="mobile" value="${mobile}" />
+                    <label>用户名</label>
+                    <input class="form-group" type="text" id="customerName" name="customerName" value="${customerName}" />
                 </div>
-
+                <div class="form-group">
+                    <label>手机号</label>
+                    <input class="form-group" type="text" id="mobile" name="mobile" value="${mobile}" />
+                </div>
                 <button type="submit" class="btn btn-primary btn-group-sm">查询</button>
             </form:form>
         </div>
@@ -62,8 +65,30 @@
         </tbody>
     </table>
 
+    <div class="row">
+        <div class="col-lg-10"></div>
+        <div class="col-lg-2">
+            <a class="pagination-prev btn btn-default" href="#">上一页</a>
+            <a class="pagination-next btn btn-default" href="#">下一页</a>
+        </div>
+    </div>
+
     <script>
         $(function(){
+            prev_href = "/customer/index?page=${page-1 <= 0 ? 1 : page-1}";
+            next_href = "/customer/index?page=${page+1 >= pages ? pages : page+1}";
+
+            param = "&customerName=" + $("#customerName").val() + "&mobile=" + $("#mobile").val();
+
+            $(".pagination-prev").click(function () {
+                location.href = prev_href + param;
+            })
+
+            $(".pagination-next").click(function () {
+                location.href = next_href + param;
+            })
+
+
             $("#effective").change(function(){
                 var id = $(this).attr("record-id");
                 var effective = $(this).val();

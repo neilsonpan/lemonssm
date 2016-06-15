@@ -418,7 +418,24 @@
         <if test="mobile != null ">
             and  mobile like CONCAT('%', trim(#{mobile, jdbcType=VARCHAR}), '%')
         </if>
+
+        <if test="customerName != null ">
+            and  customer_name like CONCAT('%', trim(#{customerName, jdbcType=VARCHAR}), '%')
+        </if>
     </where>
-    ORDER by id desc
+    ORDER by id desc limit #{offset}, #{pageSize}
   </select>
+
+    <select id="count" parameterType="java.util.HashMap" resultType="java.lang.Integer" >
+        select count(*) from lemon_customer
+        <where>
+            <if test="mobile != null ">
+                and  mobile like CONCAT('%', trim(#{mobile, jdbcType=VARCHAR}), '%')
+            </if>
+
+            <if test="customerName != null ">
+                and  customer_name like CONCAT('%', trim(#{customerName, jdbcType=VARCHAR}), '%')
+            </if>
+        </where>
+    </select>
 </mapper>

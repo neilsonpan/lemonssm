@@ -18,4 +18,6 @@ public interface LemonCustomerService {
     LemonCustomer findOne(int id);
 
     int update(LemonCustomer record);
+
+    int count(HashMap<String, Object> hashMap);
 }
