@@ -45,16 +45,16 @@ public class LemonCustomerController {
 
         int count = lemonCustomerService.count(hashMap);
 
-        if (page <= 0)
-        {
-            page = 1;
-        }
-
         int pages = count%pageSize == 0 ? count/pageSize : count/pageSize + 1;
 
         if (page >= pages)
         {
             page = pages;
+        }
+
+        if (page <= 0)
+        {
+            page = 1;
         }
 
         hashMap.put("offset", (page - 1) * pageSize);

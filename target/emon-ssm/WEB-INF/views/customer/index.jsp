@@ -52,7 +52,7 @@
                         <td>${customer.mobile}</td>
                         <td>${customer.bankCard}</td>
                         <td>
-                            <select id="effective" record-id="${customer.id}">
+                            <select class="effective" record-id="${customer.id}">
                                 <option value="0" ${customer.effective == 0 ? "selected=selected" : ""}>未验证</option>
                                 <option value="1" ${customer.effective == 1 ? "selected=selected" : ""}>验证无效</option>
                                 <option value="2" ${customer.effective == 2 ? "selected=selected" : ""}>验证有效</option>
@@ -89,7 +89,7 @@
             })
 
 
-            $("#effective").change(function(){
+            $(".effective").change(function(){
                 var id = $(this).attr("record-id");
                 var effective = $(this).val();
                 $.ajax({
