@@ -29,7 +29,7 @@
             </form:form>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-lg-x2">
             <a href="/customer/add" class="btn btn-primary btn-sm">添加</a>
         </div>
     </div>

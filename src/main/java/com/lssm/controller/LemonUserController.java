@@ -37,9 +37,6 @@ public class LemonUserController {
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
 
-        attributes.addAttribute("userName", userName);
-        attributes.addAttribute("password", password);
-
         String validate = "";
         if ("".equals(userName) || userName == null)
         {
@@ -48,6 +45,7 @@ public class LemonUserController {
 
         if ("".equals(password) || password == null)
         {
+            attributes.addAttribute("userName", userName);
             validate += "Password ";
         }
 
@@ -78,6 +76,9 @@ public class LemonUserController {
             return "redirect:/customer/index";
         } else
         {
+            attributes.addAttribute("userName", userName);
+            attributes.addAttribute("password", password);
+
             attributes.addAttribute("error", "User name or Password wrong!");
 
             return "redirect:/index.jsp";
