@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26eba7e6-fd7a-410d-8208-56a8c8ec1246" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm.war" afterPath="$PROJECT_DIR$/target/emon-ssm.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lssm/controller/LemonUserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/views/customer/index.jsp" afterPath="$PROJECT_DIR$/target/emon-ssm/WEB-INF/views/customer/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.RD" afterPath="$PROJECT_DIR$/README.RD" />
     </list>
     <ignored path="lemonssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -978,12 +974,12 @@
       <workItem from="1465692963421" duration="24642000" />
       <workItem from="1465802984744" duration="1210000" />
       <workItem from="1465805259220" duration="52483000" />
-      <workItem from="1466133258757" duration="310000" />
+      <workItem from="1466133258757" duration="515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92805000" />
+    <option name="totallyTimeSpent" value="93010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
